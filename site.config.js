@@ -8,7 +8,7 @@ const CONFIG = {
     email: "easyone.jwlee@gmail.com",
     linkedin: "",
     github: "easyone-jwlee",
-    instagram: "",
+    instagram: "easyone_ko",
   },
   projects: [
     {
@@ -47,9 +47,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
-      repo: "easyone-jwlee/morethan-log",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
