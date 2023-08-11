@@ -49,7 +49,8 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
+      repo: "easyone-jwlee/morethan-log",
+      // repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
